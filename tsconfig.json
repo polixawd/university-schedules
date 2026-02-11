@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "target": "ES2022",
+        "skipLibCheck": true,
+        "strictNullChecks": false,
+        "strict": false,
+        "strictFunctionTypes": false,
+        "allowJs": false,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "lib": ["ES2022", "DOM"],
+    },
+    "exclude": ["node_modules"],
+    "ts-node": {
+        "experimentalSpecifierResolution": "node",
+        "transpileOnly": true,
+        "esm": true,
+      },
+}
